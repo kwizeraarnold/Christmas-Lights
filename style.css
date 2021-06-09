@@ -1,0 +1,186 @@
+body{
+    background: #033c43;
+}
+
+h1 {
+    color: #028d8f;
+}
+
+li {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-width: thin;
+    border-style: solid;
+    display: inline-block;
+    margin: 10px;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    box-shadow: none;
+}
+.main {
+    text-align: center;
+}
+.one {
+    background-color: none;
+    animation-name: one;
+    border-color: none;
+}
+.one-off {
+    background-color: rgb(243, 185, 185);
+    border-color: rgb(243, 185, 185);
+}
+
+@keyframes one {
+    0% {
+        box-shadow: none;
+        background-color: rgb(243, 185, 185);
+        border-color: rgb(243, 185, 185);
+    }
+    100% {
+        box-shadow: 0 0 30px 15px red;
+        background-color: red;
+        border-color: red;
+    }
+}
+
+.two {
+    background-color: none;
+    animation-name: two;
+    border-color: none;
+}
+.two-off{
+    background-color: rgb(243, 195, 105);
+    border-color: rgb(243, 195, 105);
+}
+@keyframes two {
+    0% {
+        box-shadow: 0 0 30px 15px orange;
+        background-color: orange;
+        border-color: orange;
+    }
+    100% {
+        box-shadow: none;
+        background-color: rgb(243, 195, 105);
+        border-color: rgb(243, 195, 105);
+    }
+}
+
+.three {
+    background-color: none;
+    animation-name: three;
+    border-color: none;
+}
+
+.three-off {
+    background-color: rgb(248, 248, 147);
+    border-color: rgb(248, 248, 147);
+}
+@keyframes three {
+    0% {
+        box-shadow: none;
+        background-color: rgb(248, 248, 147);
+        border-color: rgb(248, 248, 147);
+    }
+    100% {
+        box-shadow: 0 0 25px 5px yellow;
+        background-color: yellow;
+        border-color: yellow;
+    }
+}
+
+.four {
+    background-color: none;
+    animation-name: four;
+    border-color: none;
+}
+
+.four-off{
+    background-color: rgb(137, 248, 137);
+    border-color: rgb(137, 248, 137);
+}
+
+@keyframes four {
+    0% {
+        box-shadow: 0 0 30px 15px green;
+        background-color: green;
+        border-color: green;
+    }
+    100% {
+        box-shadow: none;
+        background-color: rgb(137, 248, 137);
+        border-color: rgb(137, 248, 137);
+    }
+}
+
+.five {
+    background-color: none;
+    animation-name: five;
+    border-color: navy;
+}
+
+.five-off {
+    background-color: rgb(155, 155, 255);
+    border-color: rgb(155, 155, 255);
+}
+@keyframes five {
+    0% {
+        box-shadow: none;
+        background-color: rgb(155, 155, 255);
+        border-color: rgb(155, 155, 255);
+    }
+    100% {
+        box-shadow: 0 0 30px 15px navy;
+        background-color: navy;
+        border-color: navy;
+    }
+}
+
+.six {
+    background-color: none;
+    animation-name: six;
+    border-color: none;
+}
+
+.six-off{
+    background-color: rgb(148, 148, 247);
+    border-color: rgb(148, 148, 247);
+}
+
+@keyframes six {
+    0% {
+        box-shadow: 0 0 30px 15px blue;
+        background-color: blue;
+        border-color: blue;
+    }
+    100% {
+        box-shadow: none;
+        background-color: rgb(148, 148, 247);
+        border-color: rgb(148, 148, 247);
+    }
+}
+
+.seven {
+    background-color: none;
+    border-color: none;
+    animation-name: seven;
+}
+
+.seven-off {
+    background-color: rgb(248, 200, 248);
+    border-color: rgb(248, 200, 248);
+}
+
+@keyframes seven {
+    0% {
+        
+        box-shadow: none;
+        background-color: rgb(248, 200, 248);
+        border-color: rgb(248, 200, 248);
+    }
+    100% {
+        box-shadow: 0 0 30px 15px purple;
+        background-color: purple;
+        border-color: purple;
+    }
+}
