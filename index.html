@@ -9,21 +9,23 @@
 <body>
     <div class="main">
         <h1>Christmas Lights</h1>
-        <div>
-            <li class="one"></li>
-            <li class="two"></li>
-            <li class="three"></li>
-            <li class="four"></li>
-            <li class="five"></li>
-            <li class="six"></li>
-            <li class="seven"></li>
+        <div id="divOne">
+            <div id="divTwo">
+                <li class="one"></li>
+                <li class="two"></li>
+                <li class="three"></li>
+                <li class="four"></li>
+                <li class="five"></li>
+                <li class="six"></li>
+                <li class="seven"></li>
+            </div>
         </div>
         <div class="controls">
             <h2 style="color: yellow;">Controls</h2>
             <button id="on">ON</button>
             <button id="off">OFF</button>
             <span>Speed</span>
-            <input type="number" id="sInput"> <button id="sButton">Change</button><br><br>
+            <input type="number" id="sInput" min="1" max="5"> <button id="sButton">Change</button><br><br>
             <span>Change Circle Color</span><br><br>
             <label for="cars">Circle One</label>
             <select name="colors" id="colorOne">
@@ -99,8 +101,8 @@
             </select>
             <button id="changeColors">CHANGE COLORS</button><br><br>
             <span>Increase Rows</span>
-            <input type="number" name="" id="">
-            <button>ADD ROWS</button>
+            <input type="number" name="" id="rowIpt" min="1" max="7">
+            <button id="addRows">ADD ROWS</button>
         </div>
     </div>
     <script src="script.js"></script>
